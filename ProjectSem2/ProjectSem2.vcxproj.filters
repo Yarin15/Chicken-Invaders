@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{78a8e846-ae45-48ea-b49c-eff9d8dd00a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Player">
+      <UniqueIdentifier>{8eacb9c8-6978-463f-ac75-8150ff3fb4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Enemy">
+      <UniqueIdentifier>{d7265dbe-87be-4364-858b-9e97d0a54698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{19ede1c9-5ba3-4d66-a020-70126c1075a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{b3812f4d-a9e4-4afe-89a8-a1de6f187cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{14f0626c-05a4-461e-b10e-64ca4a139346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MoveInterface">
+      <UniqueIdentifier>{a3e0502f-77aa-4013-85a1-bd8f964ef8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MoveInterface">
+      <UniqueIdentifier>{6d738f0e-7389-4986-b100-109bef196b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision">
+      <UniqueIdentifier>{cae83ae8-499c-49fd-a19a-46df385821be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FactoryInterface">
+      <UniqueIdentifier>{2acd0388-e322-401d-89fb-f95ff8b3188c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MenuInterface">
+      <UniqueIdentifier>{5dec8a70-3e2b-49d6-b7d4-26577f42eafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BulletsMoveInterface">
+      <UniqueIdentifier>{c449c83d-8b39-4409-99ea-5d7f16cda17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AttackInterface">
+      <UniqueIdentifier>{fc6cbeea-a99c-44c0-8e3b-0a78546f675f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Enemy">
+      <UniqueIdentifier>{778b07af-86cd-4642-b2ee-eac9df30eb4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Player">
+      <UniqueIdentifier>{72add780-1575-4eb8-a51d-ddcbdb7e3bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Collision">
+      <UniqueIdentifier>{95c12650-98fb-4b14-aa59-2382fcdee5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FactoryInterface">
+      <UniqueIdentifier>{5377f285-214e-4576-b452-932f22fa4242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MenuInterface">
+      <UniqueIdentifier>{bc2214d7-185b-4a7e-8b44-a020fb894557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BulletsMoveInterface">
+      <UniqueIdentifier>{745c4505-2de6-4f25-aaae-dce17ab1ab9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AttackInterface">
+      <UniqueIdentifier>{84f5f272-af12-4e28-b280-6ea04e4393b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WaveInterface">
+      <UniqueIdentifier>{ca4ebd74-4755-4ec4-bfc9-52e166f6afc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WaveInterface">
+      <UniqueIdentifier>{8db1ae5e-e427-46fc-b5ff-14f3f05fccdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Falling">
+      <UniqueIdentifier>{108d1115-56c7-4500-bb8b-d2a2be097887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exeption">
+      <UniqueIdentifier>{743653fc-91ea-4b0b-b5d1-389e924cdde1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exeption">
+      <UniqueIdentifier>{3ce5aab4-82fd-48fd-a6e7-816a8c668d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Falling">
+      <UniqueIdentifier>{cf158787-256d-4026-9122-2e5bb124f736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\Shoot">
+      <UniqueIdentifier>{15a08a1a-50ea-4241-9086-061b9ef14e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\Shoot">
+      <UniqueIdentifier>{b0b86d90-2fe5-47f0-a015-ade656fec0cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="spaceShip.cpp">
+      <Filter>Source Files\Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Chicken.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayGame.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Instructions.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitGame.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandling.cpp">
+      <Filter>Source Files\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files\FactoryInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ToggleSound.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleMove.cpp">
+      <Filter>Source Files\MoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Resume.cpp">
+      <Filter>Source Files\MenuInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLeftMove.cpp">
+      <Filter>Source Files\MoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="DownRightMove.cpp">
+      <Filter>Source Files\MoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLeftAngle1.cpp">
+      <Filter>Source Files\BulletsMoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveRightAngle1.cpp">
+      <Filter>Source Files\BulletsMoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveStraight.cpp">
+      <Filter>Source Files\BulletsMoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomFactory.cpp">
+      <Filter>Source Files\FactoryInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="WantedPositionMove.cpp">
+      <Filter>Source Files\MoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave1.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave2.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave3.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave4.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave5.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveInterface.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingObject.cpp">
+      <Filter>Source Files\Objects\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>Source Files\Objects\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Source Files\Objects\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="Prize.cpp">
+      <Filter>Source Files\Objects\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenLeg.cpp">
+      <Filter>Source Files\Objects\Falling</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackSecondLevel.cpp">
+      <Filter>Source Files\AttackInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFirstLevel.cpp">
+      <Filter>Source Files\AttackInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackThirdLevel.cpp">
+      <Filter>Source Files\AttackInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFourthLevel.cpp">
+      <Filter>Source Files\AttackInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackFifthLevel.cpp">
+      <Filter>Source Files\AttackInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownCollision.cpp">
+      <Filter>Source Files\Exeption</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseException.cpp">
+      <Filter>Source Files\Exeption</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelUpdater.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootObject.cpp">
+      <Filter>Source Files\Objects\Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBase.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBoss1.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBoss1.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBoss2.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ChickenBoss3.cpp">
+      <Filter>Source Files\Objects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBoss2.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveBoss3.cpp">
+      <Filter>Source Files\WaveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleBossMove.cpp">
+      <Filter>Source Files\MoveInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Exeption</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownObject.cpp">
+      <Filter>Source Files\Exeption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MacrosEnums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="spaceShip.h">
+      <Filter>Header Files\Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Chicken.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayGame.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuCommandInterface.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\FactoryInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Instructions.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitGame.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandling.h">
+      <Filter>Header Files\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ToggleSound.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBehaviorInterface.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleMove.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLeftMove.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="DownRightMove.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Resume.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files\MenuInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBulletsInterface.h">
+      <Filter>Header Files\BulletsMoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveLeftAngle1.h">
+      <Filter>Header Files\BulletsMoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveRightAngle1.h">
+      <Filter>Header Files\BulletsMoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveStraight.h">
+      <Filter>Header Files\BulletsMoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackStrategyInterface.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomFactory.h">
+      <Filter>Header Files\FactoryInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WantedPositionMove.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave1.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave2.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave3.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave4.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveInterface.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave5.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSecondLevel.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFirstLevel.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackThirdLevel.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFourthLevel.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackFifthLevel.h">
+      <Filter>Header Files\AttackInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseException.h">
+      <Filter>Header Files\Exeption</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownCollision.h">
+      <Filter>Header Files\Exeption</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelUpdater.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingObject.h">
+      <Filter>Header Files\Objects\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>Header Files\Objects\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files\Objects\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenLeg.h">
+      <Filter>Header Files\Objects\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="Prize.h">
+      <Filter>Header Files\Objects\Falling</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBase.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootObject.h">
+      <Filter>Header Files\Objects\Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBoss1.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBoss1.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBoss3.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ChickenBoss2.h">
+      <Filter>Header Files\Objects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBoss2.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveBoss3.h">
+      <Filter>Header Files\WaveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Exeption</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBossMove.h">
+      <Filter>Header Files\MoveInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownObject.h">
+      <Filter>Header Files\Exeption</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

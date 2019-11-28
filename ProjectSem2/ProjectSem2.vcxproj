@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{7E07CA40-F066-4829-8B80-691EC5314AD9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ProjectSem2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>Chicken Invaders</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AttackFifthLevel.cpp" />
+    <ClCompile Include="AttackFourthLevel.cpp" />
+    <ClCompile Include="AttackSecondLevel.cpp" />
+    <ClCompile Include="AttackThirdLevel.cpp" />
+    <ClCompile Include="BackgroundManager.cpp" />
+    <ClCompile Include="BaseException.cpp" />
+    <ClCompile Include="BaseMenu.cpp" />
+    <ClCompile Include="Chicken.cpp" />
+    <ClCompile Include="ChickenBase.cpp" />
+    <ClCompile Include="ChickenBoss1.cpp" />
+    <ClCompile Include="ChickenBoss2.cpp" />
+    <ClCompile Include="ChickenBoss3.cpp" />
+    <ClCompile Include="ChickenLeg.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="CollisionHandling.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="Egg.cpp" />
+    <ClCompile Include="ExitGame.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="DownRightMove.cpp" />
+    <ClCompile Include="FallingObject.cpp" />
+    <ClCompile Include="LevelUpdater.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="RandomFactory.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Instructions.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="DownLeftMove.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MoveLeftAngle1.cpp" />
+    <ClCompile Include="MoveRightAngle1.cpp" />
+    <ClCompile Include="MoveStraight.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+    <ClCompile Include="PlayGame.cpp" />
+    <ClCompile Include="Prize.cpp" />
+    <ClCompile Include="AttackFirstLevel.cpp" />
+    <ClCompile Include="ResourcesManager.cpp" />
+    <ClCompile Include="Resume.cpp" />
+    <ClCompile Include="ScoreBoard.cpp" />
+    <ClCompile Include="ShootObject.cpp" />
+    <ClCompile Include="SimpleBossMove.cpp" />
+    <ClCompile Include="SimpleMove.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="spaceShip.cpp" />
+    <ClCompile Include="ToggleSound.cpp" />
+    <ClCompile Include="UnknownCollision.cpp" />
+    <ClCompile Include="UnknownObject.cpp" />
+    <ClCompile Include="WantedPositionMove.cpp" />
+    <ClCompile Include="Wave1.cpp" />
+    <ClCompile Include="Wave2.cpp" />
+    <ClCompile Include="Wave3.cpp" />
+    <ClCompile Include="Wave4.cpp" />
+    <ClCompile Include="Wave5.cpp" />
+    <ClCompile Include="WaveBoss1.cpp" />
+    <ClCompile Include="WaveBoss2.cpp" />
+    <ClCompile Include="WaveBoss3.cpp" />
+    <ClCompile Include="WaveInterface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AttackFifthLevel.h" />
+    <ClInclude Include="AttackFourthLevel.h" />
+    <ClInclude Include="AttackSecondLevel.h" />
+    <ClInclude Include="AttackStrategyInterface.h" />
+    <ClInclude Include="AttackThirdLevel.h" />
+    <ClInclude Include="BackgroundManager.h" />
+    <ClInclude Include="BaseException.h" />
+    <ClInclude Include="BaseMenu.h" />
+    <ClInclude Include="Chicken.h" />
+    <ClInclude Include="ChickenBase.h" />
+    <ClInclude Include="ChickenBoss1.h" />
+    <ClInclude Include="ChickenBoss2.h" />
+    <ClInclude Include="ChickenBoss3.h" />
+    <ClInclude Include="ChickenLeg.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="CollisionHandling.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="LevelUpdater.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="RandomFactory.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Egg.h" />
+    <ClInclude Include="ExitGame.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="FallingObject.h" />
+    <ClInclude Include="DownRightMove.h" />
+    <ClInclude Include="Instructions.h" />
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="MacrosEnums.h" />
+    <ClInclude Include="DownLeftMove.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuCommandInterface.h" />
+    <ClInclude Include="MoveBehaviorInterface.h" />
+    <ClInclude Include="MoveBulletsInterface.h" />
+    <ClInclude Include="MoveLeftAngle1.h" />
+    <ClInclude Include="MoveRightAngle1.h" />
+    <ClInclude Include="MoveStraight.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="PlayGame.h" />
+    <ClInclude Include="Prize.h" />
+    <ClInclude Include="AttackFirstLevel.h" />
+    <ClInclude Include="ResourcesManager.h" />
+    <ClInclude Include="Resume.h" />
+    <ClInclude Include="ScoreBoard.h" />
+    <ClInclude Include="ShootObject.h" />
+    <ClInclude Include="SimpleBossMove.h" />
+    <ClInclude Include="SimpleMove.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="spaceShip.h" />
+    <ClInclude Include="ToggleSound.h" />
+    <ClInclude Include="UnknownCollision.h" />
+    <ClInclude Include="UnknownObject.h" />
+    <ClInclude Include="WantedPositionMove.h" />
+    <ClInclude Include="Wave1.h" />
+    <ClInclude Include="Wave2.h" />
+    <ClInclude Include="Wave3.h" />
+    <ClInclude Include="Wave4.h" />
+    <ClInclude Include="Wave5.h" />
+    <ClInclude Include="WaveBoss1.h" />
+    <ClInclude Include="WaveBoss2.h" />
+    <ClInclude Include="WaveBoss3.h" />
+    <ClInclude Include="WaveInterface.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

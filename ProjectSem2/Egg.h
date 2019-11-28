@@ -1,0 +1,28 @@
+
+/////////////////////////////////////// Headers /////////////////////////////////////////
+
+#pragma once
+#include "FallingObject.h"
+#include "SoundManager.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////// Documentation //////////////////////////////////////
+/*
+This class inheritance from FallingObject and represnt the Egg;
+Off course it implemts all the necessary functions to this class.
+*/
+/////////////////////////////////////////////////////////////////////////////////////////
+
+class Egg : public FallingObject {
+public:
+	Egg();
+	virtual void emptyFunction() {}
+	void moveObj(float, direction) override;
+
+
+private:
+	void setSplatImage();
+	static bool _randomRegister;
+	static bool _regularRegister;
+};

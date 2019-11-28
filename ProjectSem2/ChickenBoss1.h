@@ -1,0 +1,25 @@
+/////////////////////////////////////// Headers /////////////////////////////////////////
+
+#pragma once
+#include "ChickenBase.h"
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////// Documentation //////////////////////////////////////
+
+/*
+This class is represnt the chickenBoss first object. it is the enemy of the player.
+It controlles the movements between all chicken sheets and ovveride the draw function.
+This class is an inheritance of chickenbase class.
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////
+class ChickenBoss1 :	public ChickenBase
+{
+public:
+	ChickenBoss1();
+	virtual std::shared_ptr<GameObject> getDroppedObject() const;
+private:
+	static bool m_register;
+};
+

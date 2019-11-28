@@ -1,0 +1,23 @@
+/////////////////////////////////////// Headers /////////////////////////////////////////
+#pragma once
+#include "MenuCommandInterface.h"
+#include <SFML/Graphics.hpp>
+#include "ResourcesManager.h"
+/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// Documentation //////////////////////////////////////
+/*
+This class implemnts the MenuCommandInterface when clickin on this
+butten the program is showing the game Instructions.
+*/
+/////////////////////////////////////////////////////////////////////////////////////////
+class Instructions : public MenuCommandInterface {
+
+public:
+	Instructions(sf::RenderWindow &, ResourcesManager &);
+	virtual void execute();
+
+private:
+	sf::RenderWindow & _m_window;
+	ResourcesManager & _res;
+};
+

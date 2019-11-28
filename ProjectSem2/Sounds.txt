@@ -1,0 +1,9 @@
+Prize.ogg
+EggDestroied.ogg
+DroppedEgg.ogg
+ChickenLeg.ogg
+ChickenDie.ogg
+CollectCoin.ogg
+spaceDied.ogg
+gameOver.ogg
+claps.ogg

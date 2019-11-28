@@ -1,0 +1,19 @@
+/////////////////////////////////////// Headers /////////////////////////////////////////
+#pragma once
+#include "MenuCommandInterface.h"
+#include "SoundManager.h"
+/////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////// Documentation //////////////////////////////////////
+/*	This is the menu Command interface. This Class is part of the Command design pattern.
+The class implements an interface for the menu of the game commands.
+The class has an abstract virtual function execute - to excecute the command given
+by the client (Player).
+*/
+/////////////////////////////////////////////////////////////////////////////////////////
+
+class ToggleSound : public MenuCommandInterface {
+
+public:
+	virtual void execute();
+};
+
